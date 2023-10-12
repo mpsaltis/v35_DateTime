@@ -1,0 +1,5 @@
+GVL_System.dtlocalDateTime := FuGetLocalDateAndTime();
+
+GVL_System.sDateAndTime := DT_TO_STRING(GVL_System.dtlocalDateTime);
+GVL_System.sDate := CONCAT3(MID(GVL_SYSTEM.sDateAndTime,5,9),'-',MID(GVL_SYSTEM.sDateAndTime,4,4));
+GVL_System.sTime := RIGHT(GVL_System.sDateAndTime, 8);
